@@ -1,0 +1,270 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.div {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.header {
+  background: #455991;
+  box-shadow: 0 0 30px rgb(116 116 116);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.navigation {
+  padding: 34px 0px;
+  background: #455991;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  padding-left: 28px;
+}
+
+.menu li a {
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.tel {
+  color: #fff;
+  text-decoration: none;
+}
+
+.second-section {
+  padding: 74px 0 46px;
+}
+
+.main-title {
+  text-align: left;
+}
+
+.main-title p {
+  max-width: 325px;
+  width: 100%;
+  margin: 0;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #828899;
+}
+
+.element-list {
+  align-items: flex-start;
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle {
+  box-sizing: border-box;
+  max-width: 307px;
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  padding: 32px 26px;
+}
+
+.rectangle h3 {
+  margin-bottom: 18px;
+}
+
+.rectangle p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.rectangle-2 {
+  box-sizing: border-box;
+  max-width: 307px;
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgb(177 177 177);
+  padding: 32px 26px;
+}
+
+.rectangle-2 h3 {
+  margin-bottom: 18px;
+}
+
+.rectangle-2 p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.info-1 {
+  margin-top: 17px;
+  display: block;
+  color: #22a2ec;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.third-section {
+  padding: 46px 0 47px;
+}
+
+.third-section-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-elements {
+  max-width: 359px;
+  width: 100%;
+}
+
+.form-elements h2 {
+  margin-bottom: 39px;
+}
+
+input {
+  padding: 14px 18px;
+  box-sizing: border-box;
+  border: 1px solid #d6d6d6;
+  margin-bottom: 12px;
+  max-width: 239px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.sms {
+  border: 1px solid #d6d6d6;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 14px;
+  max-width: 359px;
+  width: 100%;
+}
+
+.button {
+  padding: 14px 43px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  max-width: 166px;
+  width: 100%;
+  background: #ebce0d;
+  border: none;
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+.defences {
+  display: block;
+  font-size: 12px;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.background-elements {
+  box-sizing: border-box;
+  color: #fff;
+  max-width: 552px;
+  width: 100%;
+  background: #184c6b
+    url(file:///C:/Users/aleks/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/lesson4/img/image%201.png);
+  border-radius: 10px;
+  padding: 43px 43px 34px 43px;
+}
+
+.h-3 {
+  margin-bottom: 25px;
+}
+
+.back-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-p p {
+  line-height: 21px;
+  max-width: 208px;
+  width: 100%;
+}
+
+.back-image {
+  margin-top: 11px;
+}
+
+.footer {
+  background: #455991;
+}
+
+.footer-info {
+  padding: 37px 0px;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info span {
+  font-size: 13px;
+}
+
+.footer-info button {
+  padding: 6px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.footer-info p {
+  background: #fff;
+  border-radius: 3px;
+  padding: 7px;
+  color: #455991;
+}
